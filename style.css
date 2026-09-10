@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* background-color: black; */
+    
+
+}
+.header{
+    height: 80px;
+    background-color: black;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+.sub-header-1-1{
+    /* margin-left:10px ; */
+    width: 700px;
+display: flex;
+gap: 30px;
+align-items: center;
+justify-content: center;
+/* ?background-color: white; */
+}
+.sub-header-1{
+background-color: white;
+    border: 2px solid black;
+    border-radius: 30PX;
+    width: 240px;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+align-items: center;
+background-color: white;
+
+}
+.sub-header-1>p{
+
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.sub-header-1>p>i{
+    margin: 5px 0px ;
+    padding: 5px 0px 5px 7px;
+    align-items: center;
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.sub-header-1>p>i.icon-contact{
+    padding: 9px 9px 10px 9px ;
+
+}
+.icon-contact{
+    /* padding:0px 9px 0px 9px ; */
+   font-size: 20px;
+    border-radius: 50%;
+    /* margin: 0px 0px 0px 400px ; */
+
+}
+.icon{
+    /* margin:0px; */
+    font-size: 30px;
+}
+.sub-header-2{
+    margin-top: 50px;
+}
+.sub-header-2>img{
+    /* x: 10px; */
+    /* position: relative; */
+    /* overflow: 20px; */
+    /* margin: 100px; */
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    border: 2px solid black;
+    padding-top: 0px;
+}
+.shop{
+    font-size: 24px;
+    /* margin: 5px  ; */
+    padding: 10px 7px 10px 8px ;
+    align-items: center;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+background-color: white;
+
+}
+.bar{
+    font-size: 24px;
+    /* margin: 5px  ; */
+    padding: 10px 5px 7px 13px ;
+    align-items: center;
+    width: 51px;
+    height: 47px;
+    border: 2px solid black;
+    border-radius: 50%;
+background-color: white;
+
+}
+.sub-header-3{
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+}
