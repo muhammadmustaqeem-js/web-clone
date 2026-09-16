@@ -1,0 +1,16 @@
+.poa{
+    /* border: 2px solid red; */
+    /* width: 110px; */
+    /* height: auto; */
+    margin: auto;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: c; */
+    /*text-align: center; */
+}
+.image-div{
+    width: 1100px;
+
+}
